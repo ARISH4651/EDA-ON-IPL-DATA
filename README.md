@@ -1,17 +1,19 @@
 IPL Overwise EDA Analysis
+
+---
 Overview
 This repository contains an IPython notebook (EDA_ANALYSIS.ipynb) for performing Exploratory Data Analysis (EDA) on Indian Premier League (IPL) match data. The analysis focuses on over-by-over statistics from IPL matches, excluding super overs. The dataset provides insights into runs scored, wickets taken, batting and bowling teams, and match outcomes.
 Key objectives:
-
+---
 Load and preprocess IPL data.
 Perform basic EDA to understand patterns in runs, wickets, and team performance.
 Prepare features (X) and target (y) for potential machine learning tasks, such as predicting the winner.
-
+---
 The notebook demonstrates data loading, cleaning, label encoding for categorical variables (e.g., team names), and initial data splitting.
 Dataset
 The analysis uses the dataset: Overwise statistics without super over.csv.
 
-Source: Kaggle IPL Dataset or similar (update link if needed).
+---
 Columns:
 
 match_id: Unique identifier for the match.
@@ -23,7 +25,7 @@ runs: Runs scored in that over.
 wickets: Wickets taken in that over.
 winner: Winning team (target variable).
 
-
+---
 
 
 
